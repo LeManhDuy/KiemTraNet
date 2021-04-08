@@ -15,8 +15,19 @@ namespace KiemTraDotNet
         public Form1()
         {
             InitializeComponent();
+            getCBB();
         }
-
+        public void getCBB()
+        {
+            foreach (SinhVienDaiHoc i in CSDL_OOP.Instance.GetAllChuyenNganh())
+            {
+                cbbUni.Items.Add(new CBBItem
+                {
+                    Value = i.MSSV,
+                    Text = i.ChuyenNganh
+                });
+            }
+        }
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();

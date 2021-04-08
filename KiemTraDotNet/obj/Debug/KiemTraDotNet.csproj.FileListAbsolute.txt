@@ -1,0 +1,10 @@
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\bin\Debug\KiemTraDotNet.exe.config
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\bin\Debug\KiemTraDotNet.exe
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\bin\Debug\KiemTraDotNet.pdb
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\obj\Debug\KiemTraDotNet.csprojAssemblyReference.cache
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\obj\Debug\KiemTraDotNet.Form1.resources
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\obj\Debug\KiemTraDotNet.Properties.Resources.resources
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\obj\Debug\KiemTraDotNet.csproj.GenerateResource.cache
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\obj\Debug\KiemTraDotNet.csproj.CoreCompileInputs.cache
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\obj\Debug\KiemTraDotNet.exe
+D:\Duy_Lê\HocTap\KiemTraDotNet\KiemTraDotNet\obj\Debug\KiemTraDotNet.pdb

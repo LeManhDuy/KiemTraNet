@@ -121,29 +121,58 @@ namespace KiemTraDotNet
             DataRow drdh4 = SVDH.NewRow();
             drdh4["MSSV"] = 104;
             drdh4["ChuyenNganh"] = "He thong nhung";
-            SVDH.Rows.Add(drdh);
+            SVDH.Rows.Add(drdh4);
 
             //day la bang hai
+            SVBH = new DataTable();
+            SVBH.Columns.AddRange(new DataColumn[]
+            {
+                new DataColumn("MSSV", typeof(int)),
+                new DataColumn("Bang1", typeof(string)),
+                new DataColumn("DonVi", typeof(string))
+            });
             DataRow drbh1 = SVBH.NewRow();
             drbh1["MSSV"] = 105;
             drbh1["Bang1"] = "Bang 1 lan 1";
             drbh1["DonVi"] = "Bach Khoa";
-            SVDH.Rows.Add(drbh1);
+            SVBH.Rows.Add(drbh1);
 
             DataRow drbh2 = SVBH.NewRow();
             drbh2["MSSV"] = 105;
             drbh2["Bang1"] = "Bang 1 lan 2";
             drbh2["DonVi"] = "Su Pham";
-            SVDH.Rows.Add(drbh2);
+            SVBH.Rows.Add(drbh2);
 
             //day la cao dang
-            DataRow drcd1 = SVBH.NewRow();
+            SVCD = new DataTable();
+            SVCD.Columns.AddRange(new DataColumn[]
+            {
+                new DataColumn("MSSV", typeof(int))
+            });
+            DataRow drcd1 = SVCD.NewRow();
             drcd1["MSSV"] = 105;
-            SVDH.Rows.Add(drcd1);
+            SVCD.Rows.Add(drcd1);
 
-            DataRow drcd2 = SVBH.NewRow();
+            DataRow drcd2 = SVCD.NewRow();
             drcd2["MSSV"] = 105;
-            SVDH.Rows.Add(drcd2);
+            SVCD.Rows.Add(drcd2);
         }
+        public void EditDataRowSV(SinhVien s)
+        { }
+        public void AddDataRowSV(SinhVien s)
+        {
+            DataRow dr = DSSV.NewRow();
+            dr["MSSV"] = s.MSSV;
+            dr["HoTen"] = s.HoTen;
+            dr["DiaChi"] = s.DiaChi;
+            dr["DienThoai"] = s.DienThoai;
+            dr["NgaySinh"] = Convert.ToDateTime(s.NgaySinh);
+            dr["NienKhoa"] = s.NienKhoa;
+            DSSV.Rows.Add(dr);
+        }
+        public void DeleteDataRowSV(string MSSV)
+        { }
+        public void SortSV(string Sort)
+        { }
     }
 }
